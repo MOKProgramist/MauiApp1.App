@@ -6,7 +6,7 @@
     <StackLayout>
         <Grid ColumnDefinitions="*,*">
             <ScrollView Grid.Column="0">
-                <CollectionView ItemsSource="{Binding ComputerComponentModel}"
+                <CollectionView ItemsSource="{Binding СomputerСomponentViewModel}"
                                 SelectedItem="{Binding SelectedItem}"
                                 SelectionMode="Single">
                     <CollectionView.ItemTemplate>
@@ -68,4 +68,5 @@
         </Grid>
     </StackLayout>
 </ContentPage>
+
 

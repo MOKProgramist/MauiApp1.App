@@ -28,6 +28,7 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<DefaultLanguage>ru</DefaultLanguage>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -49,18 +50,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\Cooler Master MasterBox NR200P White.png" />
-	  <None Remove="Resources\Images\GIGABYTE B660M DS3H DDR4 (rev. 1.0).png" />
-	  <None Remove="Resources\Images\GIGABYTE GeForce RTX 3070 Gaming OC 8G.png" />
-	  <None Remove="Resources\Images\Intel Core i5-12400F LGA1700.png" />
-	  <None Remove="Resources\Images\Intel Core i5-12600KF LGA1700.png" />
-	  <None Remove="Resources\Images\Kingston FURY Beast 16 ГБ (8 ГБ x 2) DDR4 3200 МГц DIMM CL16.png" />
-	  <None Remove="Resources\Images\Kingston FURY Beast 32 ГБ (16 ГБ x 2) DDR5 4800 МГц DIMM CL38.png" />
-	  <None Remove="Resources\Images\MSI GeForce GTX 1660 SUPER VENTUS XS OC 6GB.png" />
-	  <None Remove="Resources\Images\MSI GeForce RTX 3060 GAMING X 12G.png" />
-	  <None Remove="Resources\Images\MSI MAG B660M Mortar DDR4.png" />
-	  <None Remove="Resources\Images\MSI PRO B660M-E DDR4.png" />
-	  <None Remove="Resources\Images\Western Digital WD Blue 1 ТБ.png" />
 	  <None Remove="Resources\Raw\ComputerComponents.json" />
 	  <None Remove="Resources\Raw\Food.json" />
 	</ItemGroup>
