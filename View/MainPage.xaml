@@ -6,7 +6,7 @@
     <StackLayout>
         <Grid ColumnDefinitions="*,*">
             <ScrollView Grid.Column="0">
-                <CollectionView ItemsSource="{Binding Foods}"
+                <CollectionView ItemsSource="{Binding ComputerComponentModel}"
                                 SelectedItem="{Binding SelectedItem}"
                                 SelectionMode="Single">
                     <CollectionView.ItemTemplate>
@@ -45,7 +45,7 @@
                                                    Padding="0"
                                                    Margin="0,-7,0,0"
                                                    Grid.Column="2">
-                                                <Label Text="{Binding TypeOfFood}"
+                                                <Label Text="{Binding TypeOfComponent}"
                                                        TextColor="White"
                                                        FontSize="10"
                                                        HorizontalOptions="Center"
