@@ -1,4 +1,4 @@
-{
+[
   {
     "Id": 1,
     "Name": "Процессор Intel Core i5-12400F LGA1700, 6 x 2500 МГц, OEM",
@@ -95,4 +95,4 @@
     "Cost": 4100,
     "Image": "Western Digital WD Blue 1 ТБ.png"
   }
-}
+]
