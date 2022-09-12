@@ -6,7 +6,7 @@
     <StackLayout>
         <Grid ColumnDefinitions="*,*">
             <ScrollView Grid.Column="0">
-                <CollectionView ItemsSource="{Binding СomputerСomponentViewModel}"
+                <CollectionView ItemsSource="{Binding Components}"
                                 SelectedItem="{Binding SelectedItem}"
                                 SelectionMode="Single">
                     <CollectionView.ItemTemplate>
